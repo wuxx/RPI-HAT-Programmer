@@ -1,0 +1,10 @@
+#ICSP pin desc
+
+        ICSP
+MISO    O  O    VCC
+SCK     O  O    MOSI
+RESET   O  O    GND
+
+#list supported partno & programmer-id
+avrdude -p ?
+avrdude -c ?

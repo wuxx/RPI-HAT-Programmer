@@ -23,10 +23,10 @@
 
 #### avrdude ####
 	- avr
-	env.sh 配置芯片型号  
-	probe.sh 探测芯片是否已经连接  
-	flash_dump.sh 读出flash  
-	flash_write.sh 烧写flash  
+		env.sh 配置芯片型号  
+		probe.sh 探测芯片是否已经连接  
+		flash_dump.sh 读出flash  
+		flash_write.sh 烧写flash  
 #### flashrom ####
 	probe.sh 探测芯片型号  
 	flash_dump.sh 读出flash  

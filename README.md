@@ -6,8 +6,7 @@
 * [oled](#oled)
 #### openocd ####
 	- stm32  
-		当前已经集成stm32系列芯片的操作脚本，说明如下：  
-		env.sh  在此处配置芯片所属的平台，如stm32f1x, stm32f2x等，调用其他脚本时，需要先执行一次source ./env.sh用于初始化环境变量。  
+		env.sh  在此处配置芯片所属的平台，如stm32f1x, stm32f2x等，调用其他脚本时，需要先执行一次source ./env.sh用于初始化环境变量，下同。  
 		probe.sh  用于探测芯片是否存在  
 		attach.sh attach到芯片上，之后可再另一个窗口调用$telnet localhost 4444进行单步调试     
 		flash_dump.sh 将芯片中的flash数据dump出来    

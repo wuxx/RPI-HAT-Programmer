@@ -33,10 +33,10 @@
 	flash_write.sh 烧写flash  
 
 #### eeprog ####
-	env.sh 配置芯片型号，可调用avrdude -p ? 查看当前支持的芯片  
+	env.sh 配置芯片型号，使用前请手动编辑此文件配置芯片参数  
 	probe.sh 探测i2c总线  
-	flash_dump.sh 读出flash  
-	flash_write.sh 烧写flash  
+	eeprom_dump.sh 读出flash  
+	eeprom_write.sh 烧写flash  
 #### oled ####
 	扩展板预留出了I2C1，可接入一个OLED进行显示，调用以下命令可对OLED进行测试：
 	$python hello.py

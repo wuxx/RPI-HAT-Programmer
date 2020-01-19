@@ -8,6 +8,8 @@ else
     IMAGE_FILE=$1
 fi
 
+. ./env.sh
+
 EEPROG=src/eeprog-0.7.6-tear12/eeprog
 
 $EEPROG -${ADDR_MODE} -f -w 0x0 -t 5 -i $IMAGE_FILE /dev/i2c-0 0x50

@@ -11,8 +11,11 @@
 #24C256 32KB
 #24C512 64KB
 
-export CHIPNAME="24C32"
-export EEP_SIZE="4096"
+#export CHIPNAME="24C32"
+#export EEP_SIZE="4096"
+
+export CHIPNAME="24C128"
+export EEP_SIZE="16384"
 
 #8  Use 8bit  address mode for 24c0x...24C16
 #16 Use 16bit address mode for 24c32...24C256

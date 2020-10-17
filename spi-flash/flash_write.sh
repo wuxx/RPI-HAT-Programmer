@@ -7,5 +7,5 @@ else
 fi
 
 #flashrom write
-flashrom -p linux_spi:dev=/dev/spidev0.0 -VVV -w ${IMAGE}
+flashrom -p linux_spi:dev=/dev/spidev0.0,,spispeed=10000 -VVV -w ${IMAGE}
 

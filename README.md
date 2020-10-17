@@ -1,4 +1,5 @@
 # RPI-HAT-Programmer
+[中文](./README.md) [English](./README_en.md)
 * [openocd](#openocd)
 * [avrdude](#avrdude)
 * [flashrom](#flashrom)

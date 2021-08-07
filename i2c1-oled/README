@@ -1,0 +1,3 @@
+need to install https://github.com/rm-hull/luma.oled
+$sudo python3 setup install
+$sudo python3 logo.py

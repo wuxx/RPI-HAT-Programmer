@@ -5,6 +5,8 @@
 * [flashrom](#flashrom)
 * [eeprog](#eeprog)
 * [oled](#oled)
+![top](https://github.com/wuxx/RPI-HAT-Programmer/blob/master/doc/top.png)
+
 #### openocd ####
 	- stm32  
 		env.sh  在此处配置芯片所属的平台，如stm32f1x, stm32f2x等，调用其他脚本时，需要先执行一次source ./env.sh用于初始化环境变量，下同。  

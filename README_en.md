@@ -4,6 +4,9 @@
 * [flashrom](#flashrom)
 * [eeprog](#eeprog)
 * [oled](#oled)
+
+![top](https://github.com/wuxx/RPI-HAT-Programmer/blob/master/doc/top.png)
+
 #### openocd ####
 	- stm32  
 		env.sh  first need to edit this file to config the platform, then type `. ./env.sh` to export  
